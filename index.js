@@ -6,14 +6,13 @@ function distanceFromHqInBlocks(distance) {
 };
 
 function distanceFromHqInFeet() {
-  
+
 };
 
 function distanceTravelledInFeet(){
-  
+
 };
 
 function calculatesFarePrice(start, destination) {
-  
-};
 
+};
