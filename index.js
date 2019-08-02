@@ -5,7 +5,7 @@ function distanceFromHqInBlocks(distance) {
 };
 
 function distanceFromHqInFeet() {
-  return Math.abs(distanceFromHqInBlocks * 12)
+  return Math.abs(distanceFromHqInBlocks() * 12)
 };
 
 function distanceTravelledInFeet(){
