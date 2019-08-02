@@ -15,5 +15,18 @@ function distanceTravelledInFeet(start, destination){
 };
 
 function calculatesFarePrice(start, destination) {
-
+  //first 400ft are free, 2c/ft after 400 to 2000ft, flat price over 2000ft to 2500ft, no rides over 2500ft
+  let travel = distanceTravelledInFeet(start, destination)
+  if (travel <= 400) 
+    return 0
+  }
+    else if (travel > 400 && travel <= 2000) {
+      return (travel - 400) * 0.02
+    }
+      else if (travel > 2000 && travel <= 2500) {
+        return 25
+      }
+        else (travel > 2500) {
+          return 'cannot travel that far'
+        }
 };
