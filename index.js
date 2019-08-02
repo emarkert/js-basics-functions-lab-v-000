@@ -8,8 +8,10 @@ function distanceFromHqInFeet(distance) {
   return (distanceFromHqInBlocks(distance) * 264)
 };
 
-function distanceTravelledInFeet(){
-
+function distanceTravelledInFeet(start, destination){
+  //find number of blocks travelled and multiply by 264
+  let travel = Math.abs(start - destination)
+  return travel * 264
 };
 
 function calculatesFarePrice(start, destination) {
